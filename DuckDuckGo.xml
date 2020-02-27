@@ -1,0 +1,12 @@
+
+
+
+<suite name="Duck Duck go">
+    <test name="Search value">
+        <parameter name="DriverName" value="chrome"></parameter>
+        <classes>
+            <class name="DuckDuckTest"></class>
+        </classes>
+    </test>
+
+</suite>

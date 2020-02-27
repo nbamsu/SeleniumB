@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Amazon tets" parallel="tests" thread-count="2">
+    <test name="Price Search and Votes">
+        <parameter name="DriverName" value="ff"></parameter>
+        <classes>
+            <class name="AmazonGetPrice"></class>
+
+        </classes>
+    </test>
+
+    <test name="Price Search and Votes1">
+        <parameter name="DriverName" value="chrome"></parameter>
+        <classes>
+            <class name="AmazonGetPrice"></class>
+
+        </classes>
+    </test>
+</suite>
